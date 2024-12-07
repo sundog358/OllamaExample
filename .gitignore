@@ -1,0 +1,90 @@
+# Ignore build output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Visual Studio Code settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Rider and JetBrains settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Package management
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# DotNet-specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Environment files
+.env
+.env.*
+
+# Ollama files
+.ollama/
+ollama.log
+*.ollama
+
+# MacOS files
+.DS_Store
+
+# Windows thumbnail database
+Thumbs.db
+
+# Sensitive files (add specific API keys if applicable)
+appsettings.Development.json
+appsettings.json
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+
+# Coverage files
+coverage/
+*.coverage
+*.coveragexml
+*.testsettings
+
+# Application insights
+ApplicationInsights.config
+ApplicationInsights.config.user
+
+# Other IDEs and tools
+*.cache
+*.directory
+
+# Backup files
+*.bak
+*~
+
+# Semantic Kernel generated files
+*.skcache
